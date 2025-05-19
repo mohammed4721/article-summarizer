@@ -6,7 +6,7 @@ const App = () => {
 
   const summarizeStory = () => {
     if (!story.trim()) {
-      setSummary("Please enter a story to summarize.");
+      setSummary("PLEASE ENTER A LINK TO SUMMARIZE THE CONTENT.");
       return;
     }
 
